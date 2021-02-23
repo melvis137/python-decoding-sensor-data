@@ -13,6 +13,7 @@ def load_sensor_data():
       for row in data_file:
         sensor_data.append(row)
   
+  # print(sensor_data)
   return sensor_data
 
 
